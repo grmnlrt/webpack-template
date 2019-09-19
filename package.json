@@ -1,10 +1,10 @@
 {
-  "name": "javascript-101",
+  "name": "webpack-template",
   "version": "1.0.0",
-  "description": "Starting code for First JavaScript ES6 lecture",
+  "description": "Webpack template to easily deploy on GitHub Pages",
   "main": "index.js",
-  "repository": "https://github.com/lewagon/webpack-boilerplate",
-  "author": "ssaunier",
+  "repository": "https://github.com/grmnlrt/webpack-template",
+  "author": "grmnlrt",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^5.9.0",

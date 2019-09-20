@@ -16,6 +16,7 @@ git init
 
 ## Usage
 
-Just two commands to know:
+Just few commands to know:
 - `yarn create-gh-pages`: create your `gh-pages`(run this command only once to create the `gh-pages`)
 - `yarn deploy`: deploy latest changes committed on `master` on your `gh-pages`
+- `yarn server`: start a server locally and allow you to access to your project on `localhost:8080`

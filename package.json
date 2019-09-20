@@ -22,6 +22,7 @@
   },
   "scripts": {
     "create-gh-pages": "git checkout -b gh-pages; rm .gitignore; touch .gitignore; echo '.DS_Store\npackage-lock.json\nyarn-error.log' >> .gitignore; git add .; git commit -m 'create gh-pages'",
-    "deploy": "git checkout gh-pages; git merge master; webpack; git add .; git commit -m 'new deploy'; git push origin gh-pages; git checkout master"
+    "deploy": "git checkout gh-pages; git merge master; webpack; git add .; git commit -m 'new deploy'; git push origin gh-pages; git checkout master",
+    "server": "webpack-dev-server"
   }
 }

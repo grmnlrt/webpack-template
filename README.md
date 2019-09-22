@@ -12,6 +12,7 @@ cd YOUR_PROJECT_NAME
 rm -rf .git
 yarn install
 git init
+hub create
 ```
 
 ## Usage
